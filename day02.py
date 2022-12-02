@@ -1,6 +1,6 @@
 # Day two of the advent of code challenge
 import pdb
-data_file = 'day02_input.txt'
+data_file = 'data_input/day02_input.txt'
 
 # Part one - Rock paper scissors competition point total
 # Player 1

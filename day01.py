@@ -1,6 +1,6 @@
 # Day one of the advent of code challenge
 
-data_file = 'day01_input.txt'
+data_file = 'data_input/day01_input.txt'
 
 # Part one - find the largest amount of calories in list
 
