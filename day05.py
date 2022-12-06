@@ -1,5 +1,5 @@
 # Day five of the advent of code challenge
-import pdb
+
 data_file = 'data_input/day05_input.txt'
 
 # Part one - Find which crate is ontop of each stack
@@ -65,8 +65,7 @@ for instruction in instructions:
     crate_letters = stacks[from_stack][:amount]
     del stacks[from_stack][:amount]
     stacks[to_stack] = crate_letters + stacks[to_stack]
-    # pdb.set_trace()
+
         
 top_crates = ''.join([stacks[x][0]for x in stacks.keys()])
 print('New arrangement of top crates = {}'.format(top_crates))
-pdb.set_trace()
